@@ -1,0 +1,172 @@
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 200;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-image: url("filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.1px);
+  -webkit-backdrop-filter: blur(3.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-animation: aparicion 1s ease-in-out;
+          animation: aparicion 1s ease-in-out;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 15px 10px;
+  outline: none;
+  width: 90%;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.309);
+  color: white;
+}
+
+::-moz-placeholder {
+  color: white;
+}
+
+:-ms-input-placeholder {
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.li-container {
+  width: 90%;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: rgba(228, 228, 228, 0.464);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  border-radius: 100px;
+  -webkit-animation: aparicion 0.3s ease-in-out;
+          animation: aparicion 0.3s ease-in-out;
+  padding: 5px;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.btn-delete {
+  border: none;
+  background-color: #e31746;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-radius: 30px;
+  width: 15%;
+  margin-left: 50px;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  background-color: rgb(4, 152, 152);
+  transition: 0.2s ease-in-out;
+}
+
+.btn-add {
+  margin-left: 10px;
+  width: 15%;
+  border: none;
+  color: white;
+  font-family: fantasy;
+  background-color: teal;
+  font-size: 1.4rem;
+  outline: none;
+  border-radius: 100px;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-add:hover {
+  cursor: pointer;
+  background-color: rgb(4, 152, 152);
+  transition: 0.2s ease-in-out;
+}
+
+.empty {
+  color: rgb(255, 255, 255);
+}
+
+@-webkit-keyframes aparicion {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes aparicion {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

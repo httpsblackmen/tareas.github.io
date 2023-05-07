@@ -1,0 +1,8 @@
+@media screen and (max-width: 865px){
+     .container{
+        width: 90%;
+     } 
+     .btn-delete {
+    width: 35%;
+     }
+ } 
